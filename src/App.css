@@ -94,3 +94,12 @@ display: flex;
 .potrait{
 
 }
+.main-body{
+  width: 100%;
+  grid-template-columns: 25% 75%;
+  transition: 3s linear;
+}
+.main-body-toggled{
+  grid-template-columns: 10% 90%;
+  transition: 3s linear;
+}
